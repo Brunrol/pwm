@@ -14,7 +14,6 @@ input.onButtonPressed(Button.B, function () {
 let Power = 0
 let Count = 0
 Power = 128
-let Dir = 0
 basic.forever(function () {
     basic.showNumber(Power)
     if (Count < Power) {
